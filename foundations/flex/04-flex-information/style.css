@@ -4,14 +4,29 @@ body {
 
 img {
   width: 100px;
-  height: 100px;
+  height: auto;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
 }
 
+.img {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 52px;
+  margin-top: 32px;
+
+}
+
+.one, .two, .three, .four {
+  flex-wrap: wrap;
+  text-align: center;
+  width: 200px;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
